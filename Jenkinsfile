@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = 'douglastodt/vettec-p3'
         registryCredentials = 'docker'
-        cluster_name = 'vettec-p3'
+        cluster_name = 'skillstorm'
         namespace = 'vettec-p3'
     }
   agent {
@@ -54,3 +54,4 @@ pipeline {
     }
   }
 }
+
