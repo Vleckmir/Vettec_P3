@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 COPY app.py .
-COPY templates .
+COPY /templates/polyapp.html /templates/polyapp.html
 
 RUN pip install -r requirements.txt
 
