@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 COPY app.py .
-COPY /templates/pollyapp.html /templates/pollyapp.html
+COPY /templates/pollyapp.html pollyapp.html
 
 RUN pip install -r requirements.txt
 
